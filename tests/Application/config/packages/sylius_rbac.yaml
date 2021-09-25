@@ -1,0 +1,7 @@
+imports:
+    - { resource: "@SyliusRbacPlugin/Resources/config/config.yml" }
+
+sylius_rbac:
+    sylius_sections:
+        customers:
+            - app_admin_supplier
